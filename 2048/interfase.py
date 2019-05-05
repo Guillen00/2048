@@ -21,7 +21,7 @@ HBox1.set_halign(Gtk.Align.CENTER)
 VBox1.pack_end(HBox1,False,False,15)
 
 #agregar textoo label
-textTaller=Gtk.Label(label="Bienvenidos al juego 2048,con diferentes bases decimales ,con A,W,D,S se juega")
+textTaller=Gtk.Label(label="Bienvenidos al juego 2048,con diferentes bases decimales, INSTRUCCIONES , A,W,S,D se mueve y tienes 5 minutos para ganar ") 
 #VBox.pack_start(child,expand,fill,padding)
 VBox1.pack_start(textTaller,False,False,15)
 
@@ -256,8 +256,6 @@ HBox.pack_start(button4,False,False,5)
 
 
 window.connect("destroy", Gtk.main_quit)
-
-binario.destroy()
 
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------
