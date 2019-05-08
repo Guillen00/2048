@@ -23,10 +23,6 @@ CELL_COLOR_DICT = {2: "#776e65", 4: "#776e65", 8: "#f9f6f2", 16: "#f9f6f2",
 
 FONT = ("Verdana", 40, "bold")
 
-KEY_UP_ALT = "\'\\uf700\'"
-KEY_DOWN_ALT = "\'\\uf701\'"
-KEY_LEFT_ALT = "\'\\uf702\'"
-KEY_RIGHT_ALT = "\'\\uf703\'"
 
 KEY_UP = "'w'"
 KEY_DOWN = "'s'"
